@@ -15,18 +15,36 @@
   </head>
   <body>
     <h1>Heading</h1>
-    <div>
-      <a href="/about.html">About</a>
-      <a href="/images/google.jpg" download>Download Photo</a>
-      <a href="#section-2">Section 2</a>
-      <a href="https://google.com" target="_blank">Google</a>
-      <a href="mailto:yooglesharma@gmail.com">Email Me</a>
-    </div>
+    <!-- Unordered List -->
+    <ul>
+      <li><a href="/about.html">About</a></li>
+      <li><a href="/images/google.jpg" download>Download Photo</a></li>
+      <li><a href="#section-2">Section 2</a></li>
+      <li>
+        Links
+        <!-- Ordered List -->
+        <ol>
+          <li><a href="https://google.com" target="_blank">Google</a></li>
+          <li><a href="mailto:yooglesharma@gmail.com">Email Me</a></li>
+        </ol>
+      </li>
+    </ul>
 
+    <!-- Video -->
     <video src="/videos/ocean.mp4" controls autoplay muted loop>
       <!-- Fallback -->
       Your browser does't support video play.
     </video>
+
+    <!-- Description List -->
+    <dl>
+      <dt>Title 1</dt>
+      <dd>Description 1</dd>
+
+      <dt>Title 2</dt>
+      <dd>Description 2</dd>
+      <dd>Description 3</dd>
+    </dl>
 
     <h2>Section 1</h2>
     <p>
@@ -75,6 +93,7 @@
       beatae perspiciatis, consequuntur temporibus corrupti! Fugit, quod.
     </p>
 
+    <!-- id -->
     <h2 id="section-2">Section 2</h2>
     <p>
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo blanditiis
@@ -122,6 +141,7 @@
       nihil. Consequuntur, officia!
     </p>
 
+    <!-- Top Link -->
     <a href="#">Jump to Top</a>
   </body>
 </html>
